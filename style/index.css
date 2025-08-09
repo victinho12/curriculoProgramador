@@ -1,0 +1,9 @@
+.conteiner-pai{
+    display: flex;
+}
+.cor-lado{
+    display: flex;
+    width: 2%;
+    height: 1400px;
+    background-color: brown;
+}
