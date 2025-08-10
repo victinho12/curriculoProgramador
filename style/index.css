@@ -1,9 +1,36 @@
-.conteiner-pai{
-    display: flex;
+.conteiner-pai {
+  display: flex;
 }
-.cor-lado{
-    display: flex;
-    width: 2%;
-    height: 1400px;
-    background-color: brown;
+.fotoDePerfil {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.cor-lado {
+  display: flex;
+  width: 2%;
+  height: 1400px;
+  background-color: brown;
+  /* margin-right: 10px; */
+}
+#telefoneInformacoes,
+#email,
+#endereco,
+#idiomas {
+  display: flex;
+}
+.fotoPequenaWhatsap,
+.fotoPequenaEmail,
+.FotoPequenaendereco,
+.fotoIdioma {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.conteiner-informações {
+  display: flex;
+  justify-content: center;
+}
+#informacoesTecnicas {
+  justify-content: flex-end;
 }
