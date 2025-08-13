@@ -1,5 +1,10 @@
 .conteiner-pai {
   display: flex;
+  width: 65%;
+  height: 850px;
+}
+.conteiner-foto {
+  background-color: rgb(194, 20, 20);
 }
 .fotoDePerfil {
   height: 200px;
@@ -8,9 +13,9 @@
 }
 .cor-lado {
   display: flex;
-  width: 2%;
-  height: 1400px;
-  background-color: brown;
+  width: 5%;
+  height: 850px;
+  background-color: rgba(0, 0, 0, 0.883);;
   /* margin-right: 10px; */
 }
 #telefoneInformacoes,
@@ -29,8 +34,13 @@
 }
 .conteiner-informações {
   display: flex;
-  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.883);
+}
+h4,
+h1,
+h3 {
+  color: rgb(255, 255, 255);
 }
 #informacoesTecnicas {
-  justify-content: flex-end;
+  margin-left: 20px;
 }
