@@ -1,29 +1,39 @@
 .conteiner-pai {
   display: flex;
-  width: 65%;
+  width: 50%;
   height: 850px;
 }
+
 .conteiner-foto {
-  background-color: rgb(194, 20, 20);
+  background-color: rgba(0, 0, 0, 0.884);
 }
+.modificarFotoPerfil{
+  margin-left: 20px;
+}
+
 .fotoDePerfil {
   height: 200px;
   width: 200px;
   border-radius: 50%;
 }
+#linha{
+  margin-right: 20px;
+}
 .cor-lado {
   display: flex;
   width: 5%;
   height: 850px;
-  background-color: rgba(0, 0, 0, 0.883);;
+  background-color: rgb(74, 204, 255);
   /* margin-right: 10px; */
 }
+
 #telefoneInformacoes,
 #email,
 #endereco,
 #idiomas {
   display: flex;
 }
+
 .fotoPequenaWhatsap,
 .fotoPequenaEmail,
 .FotoPequenaendereco,
@@ -32,15 +42,20 @@
   height: 40px;
   margin-right: 10px;
 }
+
 .conteiner-informações {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.883);
+  background-color: rgba(255, 255, 255, 0.883);
 }
-h4,
-h1,
-h3 {
-  color: rgb(255, 255, 255);
+
+#Auxiliar, #email, #endereco, #telefoneInformacoes, #portugues, #inglês {
+  color: white;
 }
+
+h1 {
+  color: rgb(74, 204, 255);
+}
+
 #informacoesTecnicas {
   margin-left: 20px;
 }
